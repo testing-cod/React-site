@@ -1,3 +1,7 @@
+.navbar-start:hover{
+    background-color: whitesmoke;
+}
+
 .logo{
     max-height: 55px !important; 
 }
