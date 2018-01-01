@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/header';
+import About from './components/About/about';
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -11,6 +13,7 @@ class App extends Component {
               <button type="button" className="btn btn-default">Right</button>
           </div> 
           <Header /> 
+          <About />
       </div>
     );
   }
