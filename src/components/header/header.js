@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './header.css';
+import{  Link } from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
@@ -15,10 +16,10 @@ class Header extends Component {
               <a className="navbar-item" href="/"> <span className="icon"><i className="fa fa-pencil-square-o " aria-hidden="true"></i></span>Projects</a>
           </div>
           <div className="navbar-start">
-              <a className="navbar-item" href="/"><span className="icon"><i className="fa fa-sitemap" aria-hidden="true"></i></span>Site-Map</a>
+              <Link to="/" className="navbar-item"><span className="icon"><i className="fa fa-sitemap" aria-hidden="true"></i></span>Site-Map</Link>
           </div>
           <div className="navbar-start">
-              <a className="navbar-item" href="/">AboutUs</a>
+              <Link to="/about" className="navbar-item">AboutUs</Link>
           </div>
         </div>
         <div id="navbarExampleTransparentExample" className="navbar-menu">

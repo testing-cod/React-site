@@ -5,6 +5,17 @@ class About extends Component {
         return (
             <div>
                <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
+               <p>this is About</p> 
             </div>
         );
     }
