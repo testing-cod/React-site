@@ -10,7 +10,7 @@ class Header extends Component {
               <img src="https://s18.postimg.org/gtu2ychmx/anonymous_security_starter_handbook_by_m4xm0u53-.png" alt="cyber" className="logo"/>
           </a>
           <div className="navbar-start">
-              <a className="navbar-item" href="/"><span className="icon"><i className="fa fa-home" aria-hidden="true"></i></span> Home </a>
+              <Link to ="/" className="navbar-item"><span className="icon"><i className="fa fa-home" aria-hidden="true"></i></span> Home </Link>
           </div>
           <div className="navbar-start">
               <Link to="/Projects" className="navbar-item"> <span className="icon"><i className="fa fa-pencil-square-o " aria-hidden="true"></i></span>Projects</Link>
@@ -19,7 +19,7 @@ class Header extends Component {
               <Link to="/Sitemap" className="navbar-item"><span className="icon"><i className="fa fa-sitemap" aria-hidden="true"></i></span>Site-Map</Link>
           </div>
           <div className="navbar-start">
-              <Link to="/about" className="navbar-item">AboutUs</Link>
+              <Link to="/about" className="navbar-item">About</Link>
           </div>
         </div>
         <div id="navbarExampleTransparentExample" className="navbar-menu">
