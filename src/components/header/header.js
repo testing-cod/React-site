@@ -13,10 +13,10 @@ class Header extends Component {
               <a className="navbar-item" href="/"><span className="icon"><i className="fa fa-home" aria-hidden="true"></i></span> Home </a>
           </div>
           <div className="navbar-start">
-              <a className="navbar-item" href="/"> <span className="icon"><i className="fa fa-pencil-square-o " aria-hidden="true"></i></span>Projects</a>
+              <Link to="/Projects" className="navbar-item"> <span className="icon"><i className="fa fa-pencil-square-o " aria-hidden="true"></i></span>Projects</Link>
           </div>
           <div className="navbar-start">
-              <Link to="/" className="navbar-item"><span className="icon"><i className="fa fa-sitemap" aria-hidden="true"></i></span>Site-Map</Link>
+              <Link to="/Sitemap" className="navbar-item"><span className="icon"><i className="fa fa-sitemap" aria-hidden="true"></i></span>Site-Map</Link>
           </div>
           <div className="navbar-start">
               <Link to="/about" className="navbar-item">AboutUs</Link>
@@ -27,26 +27,26 @@ class Header extends Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                   <div className="navbar-item has-dropdown is-hoverable">
-                    <a className="navbar-link" href="/documentation/overview/start/">
+                    <Link to="/" className="navbar-link">
                       More
-                    </a>
+                    </Link>
                     <div className="navbar-dropdown is-boxed">
-                      <a className="navbar-item" href="/">
+                      <Link to="/Clients" className="navbar-item">
                         Clients
-                      </a>
-                      <a className="navbar-item" href="/">
+                      </Link>
+                      <Link to="/Services" className="navbar-item">
                         Services
-                      </a>
-                      <a className="navbar-item" href="/">
+                      </Link>
+                      <Link to="/Team" className="navbar-item">
                         OurTeam
-                      </a>
+                      </Link>
                       <hr className="navbar-divider"/>
-                      <a className="navbar-item" href="/">
+                      <Link to="/Contact" className="navbar-item">
                         Contact
-                      </a>
-                      <a className="navbar-item" href="/">
+                      </Link>
+                      <Link to="/" className="navbar-item">
                         Components
-                      </a>
+                      </Link>
                     </div>
                  </div>
                  <p className="control">
@@ -60,14 +60,14 @@ class Header extends Component {
                     </a>
                   </p>
                   <p className="control">
-                    <a className="button is-primary" data-social-network="Twitter" data-social-action="tweet" href="/">
+                    <Link to="/Login" className="button is-primary" data-social-network="Twitter" data-social-action="tweet">
                       <span className="icon">
                         <i className="fa fa-lock"></i>
                       </span>
                       <span>
-                      Login
+                          Login
                       </span>
-                    </a>
+                    </Link>
                   </p>
               </div>
             </div>
