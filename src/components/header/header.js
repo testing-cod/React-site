@@ -48,8 +48,18 @@ class Header extends Component {
                       </a>
                     </div>
                  </div>
-                  <p className="control">
+                 <p className="control">
                     <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" href="/">
+                      <span className="icon">
+                        <i className="fa fa-twitter"></i>
+                      </span>
+                      <span>
+                      Twitter
+                      </span>
+                    </a>
+                  </p>
+                  <p className="control">
+                    <a className="button is-primary" data-social-network="Twitter" data-social-action="tweet" href="/">
                       <span className="icon">
                         <i className="fa fa-lock"></i>
                       </span>
